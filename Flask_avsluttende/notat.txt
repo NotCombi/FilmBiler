@@ -1,0 +1,38 @@
+kategorier:
+    id
+    Primær farge
+    sekundær farge
+    pris
+    merke
+    modell
+    utgivelsesår
+    bilde
+    film
+
+
+
+
+
+
+
+
+
+Rare Biler:
+https://www.hotcars.com/strangest-cars-people-can-buy-on-ebay-right-now/
+https://www.yourparkingspace.co.uk/insights/the-top-10-strangest-cars-ever
+https://www.zipcar.com/ziptopia/city-living/six-wacky-cars-you-can-actually-drive
+https://www.goodwood.com/grr/road/news/2020/10/should-you-invest-in-cars-handbags-or-whisky-axons-automotive-anorak/
+https://www.kansascity.com/entertainment/article212092429.html
+    The mystery machine
+    Biler bilene
+    Grisebilen
+    Zombiemobile 
+    Ferrari 512S Modulo
+    Peel P50
+    Norman Timbs Special
+    Tiny Green Pea Car
+    Axon’s Automotive Anorak
+    Dum og dummere
+    Batmobile
+
+
