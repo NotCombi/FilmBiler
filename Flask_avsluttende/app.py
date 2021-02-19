@@ -35,10 +35,12 @@ def index():
 
     return render_template('index.html')
 
+
 @app.route('/liste/<sorter>')
 def liste(sorter):
     biler = db.engine.execute(
         f'SELECT * FROM biler ORDER BY {sorter} ASC')
     return render_template('liste.html', biler=biler)
+
 
 app.run(debug=True)
