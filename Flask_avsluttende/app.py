@@ -28,3 +28,6 @@ def __init__(self, primær, sekundær, merke, modell, bilde, film, filmår):
     self.bilde = bilde
     self.film = film
     self.filmår = filmår
+
+
+@app.route('/')
