@@ -7,7 +7,6 @@ kategorier:
     utgivelsesår
     bilde
     film
-hwiqhihqubhwbwu
 
 
 
@@ -34,6 +33,7 @@ Rare Biler:
     Flåklypa
     Christine
     mr bean
+    back to the future
     ghostbusters
     grease
     iron man
