@@ -11,20 +11,20 @@ db = SQLAlchemy(app)
 
 class Biler(db.Model):
     id = db.Column('id', db.Integer, primary_key=True)
-    primaer = db.Column('primaer', db.String(50))
-    sekundaer = db.Column('sekundaer', db.String(50))
+    primær = db.Column('primær', db.String(50))
+    sekundær = db.Column('sekundær', db.String(50))
     merke = db.Column('merke', db.String(100))
     modell = db.Column('modell', db.String(100))
     bilde = db.Column('bilde', db.String(255))
     film = db.Column('film', db.String(100))
-    filmaar = db.Column('filmaar', db.Integer)
+    filmår = db.Column('filmår', db.Integer)
 
 
-def __init__(self, primaer, sekundaer, merke, modell, bilde, film, filmaar):
-    self.primaer = primaer
-    self.sekundaer = sekundaer
+def __init__(self, primær, sekundær, merke, modell, bilde, film, filmår):
+    self.primær = primær
+    self.sekundær = sekundær
     self.merke = merke
     self.modell = modell
     self.bilde = bilde
     self.film = film
-    self.filmaar = filmaar
+    self.filmår = filmår
