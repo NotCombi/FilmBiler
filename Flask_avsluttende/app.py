@@ -31,3 +31,5 @@ def __init__(self, primær, sekundær, merke, modell, bilde, film, filmår):
 
 
 @app.route('/')
+def index():
+    return render_template('index.html')
