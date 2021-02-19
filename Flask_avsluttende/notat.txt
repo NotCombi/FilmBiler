@@ -2,43 +2,44 @@ kategorier:
     id
     Primær farge
     sekundær farge
-    pris
     merke
     modell
     utgivelsesår
     bilde
     film
-
-
-
-
-
+hwiqhihqubhwbwu
 
 
 
 
 Rare Biler:
-https://www.hotcars.com/strangest-cars-people-can-buy-on-ebay-right-now/
-https://www.yourparkingspace.co.uk/insights/the-top-10-strangest-cars-ever
-https://www.zipcar.com/ziptopia/city-living/six-wacky-cars-you-can-actually-drive
-https://www.goodwood.com/grr/road/news/2020/10/should-you-invest-in-cars-handbags-or-whisky-axons-automotive-anorak/
-https://www.kansascity.com/entertainment/article212092429.html
-    The mystery machine
-    Biler bilene
-    Grisebilen
-    Zombiemobile 
-    Ferrari 512S Modulo
-    Peel P50
-    Norman Timbs Special
-    Tiny Green Pea Car
-    Axon’s Automotive Anorak
-    Dum og dummere
-    Batmobile
-
-
     Fast & Furious  
-    Bumblebee
+
+    Film: Bumblebee
+    P: gul
+    S: svart
+    Merke: Volkswagen
+    Modell:Volkswagen Beetle
+    Utgivelsesår: 1998
+    Bilde: https://1.bp.blogspot.com/-DFuj74kehCI/W6C760CzRQI/AAAAAAAAVQ8/MO9l9uy9G7oAN4vCOZa-ZSMEpM19aI4ogCLcBGAs/s1600/BumblebeeMexicoEvent1.jpg 
+
+
+
+      Film: Dum og dummere
+     https://static.wikia.nocookie.net/dumbanddumber/images/b/b8/B-1528143847.jpg/revision/latest?cb=20180604202407
+
+    The mystery machine
     Need for Speed
+    cars
+    Flåklypa
+    Christine
+    mr bean
+    ghostbusters
+    grease
+    iron man
+    Tim Burton’s Batmobile
+
+
 
 
 
