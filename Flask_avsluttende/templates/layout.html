@@ -9,14 +9,14 @@
 </head>
 <body>
     <header>
+        <div id="logo">
+            <img src="{{ url_for('static', filename='/img/logo.png') }}" alt="">
+        </div>
         <nav>
             <a href="/">Hjem</a>
             <a href="/biler">Biler</a>
             <a href="/om">Om oss</a>
         </nav>
-        <div id="logo">
-            <img src="{{ url_for('static', filename='/img/logo.png') }}" alt="">
-        </div>
     </header>
     {% block body %}{% endblock %}
     <footer>
