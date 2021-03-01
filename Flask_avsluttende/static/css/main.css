@@ -4,7 +4,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Lato", sans-serif;
-  background-color: #ce97fb;
+  background-color:   #ce97fb;
 }
 
 header {
@@ -13,6 +13,20 @@ header {
   justify-content: space-between;
   padding: 20px;
   margin-bottom: 5px;
+  background-color: #ce97fb;
+}
+
+footer {
+  background-color: #ce97fb;
+}
+
+#farge {
+  background-color: #ac47ff;
+}
+
+#box {
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 nav {
