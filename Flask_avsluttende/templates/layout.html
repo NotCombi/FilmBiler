@@ -15,7 +15,7 @@
             <a href="/om">Om oss</a>
         </nav>
         <div id="logo">
-            <img src="" alt="">
+            <img src="{{ url_for('static', filename='/img/logo.png') }}" alt="">
         </div>
     </header>
     {% block body %}{% endblock %}
