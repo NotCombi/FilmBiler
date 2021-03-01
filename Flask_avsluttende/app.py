@@ -32,7 +32,6 @@ def __init__(self, primær, sekundær, merke, modell, bilde, film, filmår):
 
 @app.route('/')
 def index():
-
     return render_template('index.html')
 
 
@@ -41,6 +40,11 @@ def liste(sorter):
     biler = db.engine.execute(
         f'SELECT * FROM biler ORDER BY {sorter} ASC')
     return render_template('liste.html', biler=biler)
+
+
+@app.route('/om')
+def om():
+    return render_template('om.html')
 
 
 app.run(debug=True)
