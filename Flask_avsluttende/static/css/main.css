@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
 html,
 body {
-    margin: 0;
-    padding: 0;
-    font-family: "Lato",sans-serif;
-    background-color: #ce97fb;
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+  background-color: #ce97fb;
 }
 
 header {
@@ -28,5 +28,24 @@ nav a {
   padding: 0;
   margin-right: 20px;
   border-bottom: 1px solid transparent;
-  
+}
+
+#banner {
+  background-image: url("../img/banner.jpg");
+  background-size: cover;
+  background-position: bottom;
+  color: white;
+  height: 675px;
+  display: grid;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 50px;
+  font-size: xx-large;
+}
+
+#banner-text {
+  text-align: center;
+  text-size-adjust: 200px;
+  margin-bottom: 500px;
+  text-transform: uppercase;
 }
