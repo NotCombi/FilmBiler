@@ -2,7 +2,21 @@
 
 {% block body%}
 
-
+<div id="grid">
+    {% for biler in bilene %}
+    <a href="biler/{{biler.id}}">
+        <div>
+            <img src="../static/img/{{biler.bilde}}" alt="">
+            <h3>{{biler.film}}</h3>
+            <p>Utgivelsesår: {{biler.filmår}} moh</p>
+            <p>Primær farge: {{biler.primær}}</p>
+            <p>Sekundær farge: {{biler.sekundær}}</p>
+            <p>Bilmerke: {{biler.merke}}</p>
+            <p>Modell: {{biler.modell}}</p>
+        </div>
+    </a>
+    {% endfor %}
+</div>
 
 
 {% endblock %}
