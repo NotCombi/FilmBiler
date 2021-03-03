@@ -45,24 +45,7 @@ nav a {
 }
 
 #banner {
-  background-image: url("../img/banner.jpg");
-  background-size: cover;
-  background-position: bottom;
-  color: white;
-  height: 675px;
-  display: grid;
-  align-items: center;
-  width: 100%;
-  margin-bottom: 50px;
-  font-size: xx-large;
-}
-
-#banner-text {
-  text-align: center;
-  text-size-adjust: 500px;
-  color: #672a99;
-  margin-bottom: 450px;
-  text-transform: uppercase;
+  width: max-content;
 }
 
 #info img {
