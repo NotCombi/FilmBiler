@@ -34,6 +34,7 @@ nav {
   flex-direction: row;
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
 nav a {
   color: rgb(78, 30, 117);
   text-decoration: none;
