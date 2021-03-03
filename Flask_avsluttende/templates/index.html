@@ -9,6 +9,14 @@
             <h1>De kuleste bilene i filmer og TV!</h1>
         </div>
     </div>
+    <div class="wrapper">
+        {%for i in range(0, 4)%}
+        <div class="box">
+            <img src="static/img/{{biler.bilde}}">
+            
+        </div>
+        {%endfor%}
+    </div>
 </section>
 
 
