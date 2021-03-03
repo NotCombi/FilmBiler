@@ -29,7 +29,6 @@ def __init__(self, primær, sekundær, merke, modell, bilde, film, filmår):
     self.film = film
     self.filmår = filmår
 
-
 @app.route('/')
 def index():
     biler = db.engine.execute(
