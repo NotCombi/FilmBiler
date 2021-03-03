@@ -3,13 +3,12 @@ from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
 
-app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///biler.sqlite3'
 
 db = SQLAlchemy(app)
 
 
-class Biler(db.Model):
+class biler(db.Model):
     id = db.Column('id', db.Integer, primary_key=True)
     primær = db.Column('primær', db.String(50))
     sekundær = db.Column('sekundær', db.String(50))
@@ -29,10 +28,11 @@ def __init__(self, primær, sekundær, merke, modell, bilde, film, filmår):
     self.film = film
     self.filmår = filmår
 
+
 @app.route('/')
 def index():
     biler = db.engine.execute(
-        'SELECT * FROM biler ORDER BY filmår DESC')
+        'SELECT * FROM biler ORDER BY filmår DESC LIMIT 4')
     return render_template('index.html', biler=biler)
 
 

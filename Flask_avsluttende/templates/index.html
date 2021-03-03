@@ -8,11 +8,11 @@
     <hr>
     <h2>Siste Nytt</h2>
     <div class="wrapper">
-        {%for i in range(0, 4)%}
+        {%for bil in biler%}
         <div class="box">
-            <img src="../static/img/{{biler.bilde}}">
-            <h3>{{biler.merke}}</h3>
-            <h4>{{biler.modell}}</h4>
+            <img src="/static/img/{{bil.bilde}}">
+            <h3>{{bil.merke}}</h3>
+            <h4>{{bil.modell}}</h4>
         </div>
         {%endfor%}
     </div>
