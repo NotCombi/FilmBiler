@@ -64,3 +64,13 @@ nav a {
   margin-bottom: 450px;
   text-transform: uppercase;
 }
+
+#info img {
+  background-image: url("../img/ombanner.jpg");
+  background-size: cover;
+  height: 475px;
+  display: grid;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 50px;
+}
