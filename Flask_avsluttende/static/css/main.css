@@ -4,7 +4,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Lato", sans-serif;
-  background-color:   #ce97fb;
+  background-color: #ce97fb;
 }
 
 header {
@@ -59,7 +59,8 @@ nav a {
 
 #banner-text {
   text-align: center;
-  text-size-adjust: 200px;
-  margin-bottom: 500px;
+  text-size-adjust: 500px;
+  color: #672a99;
+  margin-bottom: 450px;
   text-transform: uppercase;
 }
