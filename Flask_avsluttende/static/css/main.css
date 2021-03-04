@@ -51,8 +51,15 @@ nav a {
   width: 100%;
 }
 
+#info p {
+  font-size: 17px;
+}
+#info {
+  padding: 80px;
+}
+
 #info img {
-  height: 275px;
+  height: 505px;
   display: grid;
   align-items: center;
   width: 100%;
