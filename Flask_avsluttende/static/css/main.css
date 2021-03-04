@@ -80,3 +80,8 @@ nav a {
   width: 100%;
   margin-bottom: 50px;
 }
+#grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 50px;
+}
