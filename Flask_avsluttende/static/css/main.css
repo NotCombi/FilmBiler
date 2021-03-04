@@ -29,6 +29,21 @@ footer {
   margin-right: 100px;
 }
 
+#wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 50px;
+}
+
+.gridbox {
+  border: solid black 2px;
+  background-color: #ce97fb;
+}
+
+.gridbox img {
+  width: 100%;
+}
+
 nav {
   display: flex;
   flex-direction: row;
@@ -51,8 +66,15 @@ nav a {
   width: 100%;
 }
 
+#info p {
+  font-size: 17px;
+}
+#info {
+  padding: 60px;
+}
+
 #info img {
-  height: 275px;
+  height: 505px;
   display: grid;
   align-items: center;
   width: 100%;
