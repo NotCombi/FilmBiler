@@ -52,8 +52,7 @@ nav a {
 }
 
 #info img {
-  background-size: cover;
-  height: 475px;
+  height: 275px;
   display: grid;
   align-items: center;
   width: 100%;
