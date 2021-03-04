@@ -6,16 +6,18 @@
 <section>
     <img src="static/img/banner.png" id="banner">
     <hr>
-    <h2>Siste Nytt</h2>
-    <div class="wrapper">
+    <h2>Siste lagt til</h2>
+    <div id="wrapper">
         {%for bil in biler%}
-        <div class="box">
+        <div class="gridbox">
             <img src="/static/img/{{bil.bilde}}">
-            <h3>{{bil.merke}}</h3>
-            <h4>{{bil.modell}}</h4>
+            <h3>{{bil.modell}}</h3>
+            <h4>{{bil.merke}}</h4>            
+            <h4>{{bil.film}}</h4>
         </div>
         {%endfor%}
     </div>
+    <br>
 </section>
 
 
