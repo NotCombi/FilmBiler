@@ -3,9 +3,9 @@
 {% block body%}
 
 <div id="grid">
-    {% for biler in bilene %}
+    {% for biler in biler %}
     <a href="biler/{{biler.id}}">
-        <div>
+        <div class="gridbox">
             <img src="../static/img/{{biler.bilde}}" alt="">
             <h3>{{biler.film}}</h3>
             <p>Utgivelsesår: {{biler.filmår}} moh</p>
