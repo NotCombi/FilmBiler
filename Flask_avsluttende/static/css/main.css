@@ -29,6 +29,21 @@ footer {
   margin-right: 100px;
 }
 
+#wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 50px;
+}
+
+.gridbox {
+  border: solid black 2px;
+  background-color: #ce97fb;
+}
+
+.gridbox img {
+  width: 100%;
+}
+
 nav {
   display: flex;
   flex-direction: row;
