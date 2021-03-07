@@ -41,6 +41,10 @@ footer {
   margin: auto;
 }
 
+#biler img {
+  width: 100%;
+}
+
 #wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
