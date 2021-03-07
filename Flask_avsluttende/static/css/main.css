@@ -17,7 +17,14 @@ header {
 }
 
 footer {
-  background-color: #ce97fb;
+  margin-top: 42px;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 32px;
+  background-color: rgb(86, 73, 122);
+  border-radius: 20px;
+  margin-right: 50px;
+  margin-left: 50px;
 }
 
 #farge {
@@ -27,6 +34,11 @@ footer {
 #box {
   margin-left: 100px;
   margin-right: 100px;
+}
+
+#biler {
+  max-width: 700px;
+  margin: auto;
 }
 
 #wrapper {
@@ -55,7 +67,7 @@ nav a {
   text-decoration: none;
   text-transform: uppercase;
   text-align: center;
-  font-size: 19px;
+  font-size: 22px;
   padding: 0;
   margin-right: 60px;
   margin-top: 40px;
@@ -67,16 +79,25 @@ nav a {
 }
 
 #info p {
-  font-size: 17px;
+  font-size: 23px;
+  line-height: 37px;
+  padding: 30px;
+  background-color: rgba(174, 170, 177, 0.062);
 }
+
 #info {
   padding: 60px;
 }
 
 #info img {
-  height: 505px;
+  height: 570px;
   display: grid;
   align-items: center;
   width: 100%;
   margin-bottom: 50px;
+}
+#grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 50px;
 }

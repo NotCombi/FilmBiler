@@ -2,7 +2,6 @@ from flask import Flask, render_template
 from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
-
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///biler.sqlite3'
 
 db = SQLAlchemy(app)
@@ -41,6 +40,13 @@ def liste(sorter):
     biler = db.engine.execute(
         f'SELECT * FROM biler ORDER BY {sorter} ASC')
     return render_template('liste.html', biler=biler)
+
+
+@app.route('/enkel/<id>')
+def enkel(id):
+    biler = db.engine.execute(
+        f'SELECT * FROM biler WHERE id={id}')
+    return render_template('enkel.html', biler=biler)
 
 
 @app.route('/om')
