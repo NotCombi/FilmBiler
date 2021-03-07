@@ -54,6 +54,7 @@ footer {
 .gridbox {
   border: solid black 2px;
   background-color: #ce97fb;
+  color: black;
 }
 
 .gridbox img {
@@ -104,4 +105,24 @@ nav a {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 50px;
+}
+#grid a {
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+#biler {
+  padding: 30px;
+}
+#biler h2 {
+  font-size: 40px;
+  color: rgb(46, 7, 71);
+}
+#biler p {
+  font-size: 18px;
+}
+#over {
+  color: rgb(46, 7, 71);
+  font-size: 25px;
+  margin-left: 310px;
+  padding: 20px;
 }

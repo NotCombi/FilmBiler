@@ -1,6 +1,7 @@
 {% extends "layout.html"%}
 
 {% block body%}
+<section>
     <div>
         {% for bil in biler %}
         <div id="biler">
@@ -13,6 +14,6 @@
             <p>Modell: {{bil.modell}}</p>
         </div>
         {% endfor %}
-
+</section>
 
 {% endblock %}
