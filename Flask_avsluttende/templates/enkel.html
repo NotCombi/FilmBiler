@@ -1,23 +1,18 @@
 {% extends "layout.html"%}
 
 {% block body%}
-
-<h1>Kjente biler fra filmer</h1>
-<div id="grid">
-    {% for biler in biler %}
-    <a href="biler/{{biler.id}}">
-        <div class="gridbox">
-            <img src="../static/img/{{biler.bilde}}" alt="">
-            <h3>{{biler.film}}</h3>
+    <div>
+        {% for bil in biler %}
+        <div id="biler">
+            <h2>{{bil.film}}</h2>
+            <img src="../../static/img/{{bil.bilde}}" alt="">
             <p>Utgivelsesår: {{biler.filmår}}</p>
             <p>Primær farge: {{biler.primær}}</p>
             <p>Sekundær farge: {{biler.sekundær}}</p>
             <p>Bilmerke: {{biler.merke}}</p>
             <p>Modell: {{biler.modell}}</p>
         </div>
-    </a>
-    {% endfor %}
-</div>
+        {% endfor %}
 
 
 {% endblock %}

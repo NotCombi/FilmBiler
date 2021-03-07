@@ -36,6 +36,11 @@ footer {
   margin-right: 100px;
 }
 
+#biler {
+  max-width: 700px;
+  margin: auto;
+}
+
 #wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
