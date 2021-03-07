@@ -42,7 +42,7 @@ def liste(sorter):
     return render_template('liste.html', biler=biler)
 
 
-@app.route('/enkel/<id>')
+@app.route('/liste/enkel/<id>')
 def enkel(id):
     biler = db.engine.execute(
         f'SELECT * FROM biler WHERE id={id}')
