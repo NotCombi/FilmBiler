@@ -10,10 +10,13 @@
     <div id="wrapper">
         {%for bil in biler%}
         <div class="gridbox">
-            <img src="/static/img/{{bil.bilde}}">
-            <h3>{{bil.modell}}</h3>
-            <h4>{{bil.merke}}</h4>            
-            <h4>{{bil.film}}</h4>
+            <img src="../static/img/{{bil.bilde}}">
+            <h3>{{biler.film}}</h3>
+            <p>Utgivelsesår: {{bil.filmår}}</p>
+            <p>Primær farge: {{bil.primær}}</p>
+            <p>Sekundær farge: {{bil.sekundær}}</p>
+            <p>Bilmerke: {{bil.merke}}</p>
+            <p>Modell: {{bil.modell}}</p>
         </div>
         {%endfor%}
     </div>
