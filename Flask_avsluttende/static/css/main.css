@@ -52,7 +52,7 @@ footer {
 }
 
 .gridbox {
-  border: solid black 2px;
+  border: solid rgb(46, 7, 71) 2px;
   background-color: #ce97fb;
   color: black;
   padding: 20px;
