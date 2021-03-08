@@ -106,7 +106,9 @@ nav a {
   border-radius: 20px;
   background-color: #ce97fb;
   color: black;
+  grid-auto-rows: 1fr;
 }
+
 #biler {
   padding: 30px;
 }
