@@ -4,6 +4,13 @@
 <div id="over">
     <h1>Kjente biler fra filmer og TV</h1>
 </div>
+<div id="row">
+    <h2>Sorter etter:</h2>
+    <a href="/liste/filmår"><h2>Filmår</h2></a>
+    <a href="/liste/film"><h2>Film</h2></a>
+    <a href="/liste/primær"><h2>Primær farge</h2></a>
+    <a href="/liste/merke"><h2>Merke</h2></a>
+</div>
 <div id="grid">
     {% for biler in biler %}
     <a href="enkel/{{biler.id}}">

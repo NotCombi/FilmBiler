@@ -38,8 +38,9 @@ def index():
 @app.route('/liste/<sorter>')
 def liste(sorter):
     biler = db.engine.execute(
-        f'SELECT * FROM biler ORDER BY {sorter} ASC')
+        f'SELECT * FROM biler ORDER BY {sorter} DESC')
     return render_template('liste.html', biler=biler)
+
 
 @app.route('/liste/enkel/<id>')
 def enkel(id):
