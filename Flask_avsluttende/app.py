@@ -37,8 +37,12 @@ def index():
 
 @app.route('/liste/<sorter>')
 def liste(sorter):
-    biler = db.engine.execute(
-        f'SELECT * FROM biler ORDER BY {sorter} DESC')
+    if sorter == "filmår":
+        biler = db.engine.execute(
+            f'SELECT * FROM biler ORDER BY {sorter} DESC')
+    else:
+        biler = db.engine.execute(
+            f'SELECT * FROM biler ORDER BY {sorter} ASC')
     return render_template('liste.html', biler=biler)
 
 
