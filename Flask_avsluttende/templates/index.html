@@ -9,8 +9,9 @@
     <div id="klasse">
         <h2>Siste lagt til</h2>
     </div>
-    <div id="wrapper">
+    <div id="grid">
         {%for bil in biler%}
+        <a href="/liste/enkel/{{bil.id}}">
         <div class="gridbox">
             <img src="../static/img/{{bil.bilde}}">
             <h3>{{biler.film}}</h3>
@@ -20,6 +21,7 @@
             <p>Bilmerke: {{bil.merke}}</p>
             <p>Modell: {{bil.modell}}</p>
         </div>
+        </a>
         {%endfor%}
     </div>
     <br>

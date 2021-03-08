@@ -45,16 +45,7 @@ footer {
   width: 100%;
 }
 
-#wrapper {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 50px;
-}
-
 .gridbox {
-  border: solid black 2px;
-  background-color: #ce97fb;
-  color: black;
   padding: 20px;
   border-radius: 15px;
 }
@@ -111,6 +102,9 @@ nav a {
 #grid a {
   text-decoration: none;
   border-bottom: 1px solid transparent;
+  border: solid black 2px;
+  background-color: #ce97fb;
+  color: black;
 }
 #biler {
   padding: 30px;
