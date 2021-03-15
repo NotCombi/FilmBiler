@@ -122,7 +122,8 @@ nav a {
   color: rgb(46, 7, 71);
 }
 #biler p {
-  font-size: 18px;
+  font-size: 20px;
+  font-weight: bold;
 }
 #over {
   color: rgb(46, 7, 71);
