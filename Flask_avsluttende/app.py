@@ -16,9 +16,10 @@ class biler(db.Model):
     bilde = db.Column('bilde', db.String(255))
     film = db.Column('film', db.String(100))
     filmår = db.Column('filmår', db.Integer)
+    video = db.Column('video', db.String(100))
 
 
-def __init__(self, primær, sekundær, merke, modell, bilde, film, filmår):
+def __init__(self, primær, sekundær, merke, modell, bilde, film, filmår, video):
     self.primær = primær
     self.sekundær = sekundær
     self.merke = merke
@@ -26,6 +27,7 @@ def __init__(self, primær, sekundær, merke, modell, bilde, film, filmår):
     self.bilde = bilde
     self.film = film
     self.filmår = filmår
+    self.video = video
 
 
 @app.route('/')
