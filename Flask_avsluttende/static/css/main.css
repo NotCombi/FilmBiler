@@ -152,3 +152,9 @@ nav a {
   color: black;
   margin-left: 110px;
 }
+
+iframe {
+  display: block;
+  border-style:none;
+  margin: 0 auto;
+}
