@@ -123,7 +123,7 @@ nav a {
 }
 #biler p {
   font-size: 20px;
-  font-weight: bold;
+  text-align: black 5px;
 }
 #over {
   color: rgb(46, 7, 71);
@@ -154,7 +154,8 @@ nav a {
 }
 
 iframe {
+  padding: 30px;
   display: block;
-  border-style:none;
+  border-style: none;
   margin: 0 auto;
 }
