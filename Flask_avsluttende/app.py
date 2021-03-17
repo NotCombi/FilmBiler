@@ -33,7 +33,7 @@ def __init__(self, primær, sekundær, merke, modell, bilde, film, filmår, vide
 @app.route('/')
 def index():
     biler = db.engine.execute(
-        'SELECT * FROM biler ORDER BY filmår DESC LIMIT 4')
+        'SELECT * FROM biler ORDER BY filmår DESC LIMIT 3')
     return render_template('index.html', biler=biler)
 
 
