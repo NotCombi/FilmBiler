@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+
 html,
 body {
   margin: 0;
@@ -14,6 +16,26 @@ header {
   padding: 20px;
   margin-bottom: 5px;
   background-color: #ce97fb;
+}
+
+#logo img {
+  max-width: 200px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+}
+
+nav a {
+  color: rgb(78, 30, 117);
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 22px;
+  padding: 0;
+  margin-right: 30px;
+  margin-top: 25px;
 }
 
 footer {
@@ -32,8 +54,8 @@ footer {
 }
 
 #box {
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
 #biler {
@@ -58,24 +80,6 @@ footer {
   width: 100%;
 }
 
-nav {
-  display: flex;
-  flex-direction: row;
-}
-
-@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
-nav a {
-  color: rgb(78, 30, 117);
-  text-decoration: none;
-  text-transform: uppercase;
-  text-align: center;
-  font-size: 22px;
-  padding: 0;
-  margin-right: 60px;
-  margin-top: 40px;
-  border-bottom: 1px solid transparent;
-}
-
 #banner {
   width: 100%;
 }
@@ -88,11 +92,10 @@ nav a {
 }
 
 #info {
-  padding: 60px;
+  padding: 30px;
 }
 
 #info img {
-  height: 570px;
   display: grid;
   align-items: center;
   width: 100%;
@@ -100,11 +103,20 @@ nav a {
 }
 #grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
+  padding: 20px;
+}
+
+#grid2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   grid-gap: 50px;
   padding: 29px;
 }
-#grid a {
+
+#grid a,
+#grid2 a {
   text-decoration: none;
   border-bottom: 1px solid transparent;
   border: solid transparent 2px;
@@ -143,35 +155,60 @@ nav a {
   justify-content: space-evenly;
 }
 
-#row h2 {
+#row h3 {
   margin: 0;
 }
 
 #row a {
   text-decoration: none;
+  text-decoration: underline;
   color: black;
-  margin-left: 110px;
 }
 
-iframe {
-  padding: 30px;
-  display: block;
-  border-style: none;
-  margin: 0 auto;
+.container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%;
+}
+
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
 }
 
 @media screen and (max-width:550px) {
   
     header {
       flex-direction: column;
+      justify-content: center;
+    }
+    #logo {
+      display: flex;
+      justify-content: center;
     }
 
     nav {
       flex-direction: column;
+      justify-content: center;
+    }
+
+    nav a {
+      margin-right: 0;
     }
 
     #grid {
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr;
+      padding: 10px;
+    }
+
+    #grid2 {
+      grid-template-columns: 1fr;
       padding: 10px;
     }
 
